@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  backend:
+    image: blog
+    container_name: blog
+    ports:
+    - 8000:8000
+    
